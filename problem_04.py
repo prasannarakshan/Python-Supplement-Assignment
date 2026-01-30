@@ -6,4 +6,4 @@ largest = numbers[0]
 for i in range(1, len(numbers)):
     if numbers[i] > largest:
         largest = numbers[i]
-print(f"Largest number is:{largest}")
+print(f"Largest number is: {largest}")

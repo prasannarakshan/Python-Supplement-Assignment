@@ -1,8 +1,8 @@
 # Problem 5: Count vowels in a string
-# Find and fix the error
+# Find and fix the error 
 
 text = "Hello World"
-vowels = "aeiou"
+vowels = "aeiouAEIOU"   # include uppercase vowels
 count = 0
 for char in text:
     if char in vowels:
